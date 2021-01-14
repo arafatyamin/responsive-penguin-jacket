@@ -1,0 +1,150 @@
+body {
+     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+     font-size: 60px;
+     font-weight: 700;
+     line-height: 60px;
+}
+
+p {
+     font-size: 18px;
+     color: darkgray;
+     font-weight: 400;
+}
+h5{
+     font-size: 22px;
+     color: rgba(10, 10, 39, 0.856);
+}
+
+/* .fixed-height{
+     height: 500px;
+} */
+section {
+     padding-top: 100px;
+}
+
+/* nav part start */
+.nav-top {
+     top: 26px;
+}
+
+.navbar-brand img {
+     width: 268px;
+     height: auto;
+}
+
+#navbarNav {
+     justify-content: end;
+}
+
+#navbarNav ul li a {
+     font-size: 18px;
+     line-height: 24px;
+     padding-left: 28px;
+}
+
+/* nav part end */
+/* banner part start */
+#banner-top {}
+
+.padding-add {
+     padding-top: 100px;
+}
+
+.yellow-heightlight {
+     color: #fabe4c;
+     text-shadow: 5px -5px 5px #5d5455;
+}
+
+.darkblue-heightlight {
+     color: #363958;
+     text-shadow: 5px -5px 5px #5d5455;
+}
+
+.btn {
+     font-size: 18px;
+     color: white;
+     background: #9bb438;
+     padding: 10px 20px;
+     border-radius: 10px;
+      border: none;
+}
+.btn:hover{
+   background: transparent;
+  color: #76aef1;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05);
+}
+
+.btn i {
+     font-size: 18px;
+     padding-right: 10px;
+}
+
+/* banner part end */
+/*Jacket part start */
+.shadow {
+     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05);
+     border: 0;
+}
+.shadow img {
+     background-color: darkgray;
+     width: 90%;
+     margin: auto;
+     height: 65%;
+     padding: 16%;
+}
+.card-body h3 {
+     display: inline;
+     color: rgb(255,151,0);
+}
+.card-body p {
+     font-size: 14px;
+     margin-bottom: 50px;
+}
+/*Jacket part end */
+/* about part start */
+.card-section {
+     max-width: 502px;
+     border: 0;
+     text-align: justify;
+     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05);
+     border-radius: 15px;
+}
+
+.card-section img {
+     max-width: 80px;
+     transform: translatey(25%);
+}
+/* about part end */
+
+
+/* mediea part start */
+
+@media screen and (max-width: 540px) {
+   h1{
+    font-size: 40px;
+    line-height: 35px;
+  }
+  img{
+       width: 80%;
+       padding: 20px;
+  }
+  .card-section img{
+       max-width: 100px;
+
+  }
+  .card-section{
+       text-align: center;
+  }
+  .card-section p{
+       font-size: 18px;
+       
+  }
+  .justify-start{
+     justify-content: start;
+     align-items: flex-end;
+     display: block;
+  }
+}
